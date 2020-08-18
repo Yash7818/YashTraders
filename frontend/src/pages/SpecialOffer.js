@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 function Special(props){
+    const [modal,showmodal] = getState(false)
     return <div>
         <Header {...props} />
         <div>
